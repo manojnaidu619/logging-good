@@ -1,12 +1,10 @@
 require "logging_good/version"
 require "active_support/logger"
 
-class Hash
-  class Error < StandardError; end
-
-  def logging_good
+class Now
+  def self.logging_good(params)
+     @params = params
      logger = ActiveSupport::Logger.new(STDOUT)
-     logger.info self.to_a
+     logger.info "HERE : #{@params.inspect}"
   end
-
 end
