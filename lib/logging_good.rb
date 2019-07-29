@@ -6,7 +6,7 @@ class Hash
 
   def logging_good
      logger = ActiveSupport::Logger.new(STDOUT)
-     logger.info self
+     logger.info self.to_a
   end
 
 end
