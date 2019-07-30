@@ -6,6 +6,7 @@
 [![Build Status](https://travis-ci.org/manojnaidu619/logging-good.svg?branch=master)](https://travis-ci.org/manojnaidu619/logging-good)
 [![codecov](https://codecov.io/gh/manojnaidu619/logging-good/branch/master/graph/badge.svg)](https://codecov.io/gh/manojnaidu619/logging-good)
 
+![](Logging-Good.gif)
 
 ## Installation
 
@@ -60,5 +61,3 @@ end
   ......
 ```
 That's Basically it. You are now able to see beautifully formatted data in your rails logs 🙌
-
-![](Logging-Good.gif)
