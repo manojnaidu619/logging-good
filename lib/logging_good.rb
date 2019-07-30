@@ -3,13 +3,9 @@ require 'terminal-table'
 
 class Now
 
-  #def self.logging_good(params=nil, req=nil, response=nil)
   def self.logging_good(*args)
-
     raise_error if args.empty? or args.count > 3
-
     args.each do |i|
-        #raise_error(1) if i.class != ActionController::Parameters or i.class != ActionDispatch::Request
         if [ActionController::Parameters, ActionDispatch::Request].each{|j| j==i.class }
           parameters_table(i) if i.key?("controller")
           request_table(i) if i.key?("REQUEST_URI")
@@ -17,7 +13,6 @@ class Now
           raise_error(1)
         end
     end
-
   end
 end
 
@@ -46,7 +41,6 @@ def request_table(request)
                HTTP_REFERER: req["HTTP_REFERER"],
                HTTP_VERSION: req["HTTP_VERSION"],
                HTTP_ACCEPT: req["HTTP_ACCEPT"],
-               HTTP_USER_AGENT: req["HTTP_USER_AGENT"],
                SERVER_NAME: req["SERVER_NAME"],
                SERVER_SOFTWARE: req["SERVER_SOFTWARE"]
               }
