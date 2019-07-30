@@ -60,3 +60,5 @@ end
   ......
 ```
 That's Basically it. You are now able to see beautifully formatted data in your rails logs 🙌
+
+![](Logging-Good.gif)
