@@ -1,6 +1,8 @@
 # LoggingGood
 
-Now Rails logger is your Best friend.
+hereafter, Rails logger is your best friend 👬.
+
+[![Gem Version](https://badge.fury.io/rb/logging_good.svg)](https://badge.fury.io/rb/logging_good)
 
 ## Installation
 
@@ -23,7 +25,7 @@ Add this line into your controller action(s) to get started!
 example:
 ```ruby
 def index
-  Now.logging_good(params, request, response.headers)
+  Now.logging_good(params, request, response.headers)       # Paste this line
   ......
   ......
 end
