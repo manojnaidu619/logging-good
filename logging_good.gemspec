@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Write a short summary, because RubyGems requires one.}
   spec.description   = %q{Write a longer description or delete this line.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/manojnaidu619/logging-good"
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.

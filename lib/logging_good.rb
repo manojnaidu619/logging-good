@@ -19,6 +19,10 @@ class Now
   end
 end
 
+class String
+  def blink; "\e[5m#{self}\e[25m" end
+end
+
 private
 
 def raise_error(line = 0)
@@ -39,7 +43,7 @@ end
 def request_table(request)
     req = request.env
     new_req = Hash.new
-    new_req = {REQUEST_METHOD: req["REQUEST_METHOD"],
+    new_req = {REQUEST_METHOD: (req["REQUEST_METHOD"]).blink,
                REQUEST_URI: req["REQUEST_URI"],
                HTTP_REFERER: req["HTTP_REFERER"],
                HTTP_VERSION: req["HTTP_VERSION"],
