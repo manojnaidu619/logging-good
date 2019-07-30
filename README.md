@@ -1,8 +1,9 @@
 # LoggingGood
 
-hereafter, Rails logger is your best friend 👬.
+##### hereafter, Rails logger is your best friend 👬.
 
 [![Gem Version](https://badge.fury.io/rb/logging_good.svg)](https://badge.fury.io/rb/logging_good)
+[![Build Status](https://travis-ci.org/manojnaidu619/logging-good.svg?branch=master)](https://travis-ci.org/manojnaidu619/logging-good)
 
 ## Installation
 

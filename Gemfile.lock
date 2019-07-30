@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    logging_good (0.1.0)
+    logging_good (1.0.0)
       terminal-table (~> 1.8)
       unicode-display_width (~> 1.6)
 
