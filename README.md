@@ -18,8 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-Add this line into your controller action to get started!
+Add this line into your controller action(s) to get started!
 
+example:
 ```ruby
+def index
   Now.logging_good(params, request, response.headers)
+  ......
+  ......
+end
 ```
