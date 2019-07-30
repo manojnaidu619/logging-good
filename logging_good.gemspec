@@ -8,8 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Manoj Naidu"]
   spec.email         = ["manojnaidu619@gmail.com"]
 
-  spec.summary       = %q{Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
+  spec.summary       = %q{Making Rails Logging much more lucid 👊}
   spec.homepage      = "https://github.com/manojnaidu619/logging-good"
   spec.license       = "MIT"
 
