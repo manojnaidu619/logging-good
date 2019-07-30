@@ -1,4 +1,3 @@
-
 # Logging-Good
 
 ###  hereafter, Rails logger is your best friend 👬
@@ -46,6 +45,7 @@ response.headers
 example:
 ```ruby
 # In app/controllers/abcd_controller.rb
+
 def index
   Now.logging_good(params, request)    
   ......
@@ -59,4 +59,4 @@ def create
 end
   ......
 ```
-That's Basically it. You are now able to see beautifully formatted data in the rails logs
+That's Basically it. You are now able to see beautifully formatted data in your rails logs 🙌
