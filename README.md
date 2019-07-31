@@ -6,6 +6,7 @@
 [![Build Status](https://travis-ci.org/manojnaidu619/logging-good.svg?branch=master)](https://travis-ci.org/manojnaidu619/logging-good)
 [![codecov](https://codecov.io/gh/manojnaidu619/logging-good/branch/master/graph/badge.svg)](https://codecov.io/gh/manojnaidu619/logging-good)
 [![Gem](https://img.shields.io/gem/v/logging_good.svg?style=flat)](http://rubygems.org/gems/logging_good "View this project in Rubygems")
+[![codebeat badge](https://codebeat.co/badges/e47277ea-b906-4560-a86a-e8d265b848cc)](https://codebeat.co/projects/github-com-manojnaidu619-logging-good-master)
 
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/manojnaidu619)
 
