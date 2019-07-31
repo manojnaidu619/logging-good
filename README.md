@@ -7,6 +7,7 @@
 [![codecov](https://codecov.io/gh/manojnaidu619/logging-good/branch/master/graph/badge.svg)](https://codecov.io/gh/manojnaidu619/logging-good)
 [![codebeat badge](https://codebeat.co/badges/e47277ea-b906-4560-a86a-e8d265b848cc)](https://codebeat.co/projects/github-com-manojnaidu619-logging-good-master)
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/manojnaidu619/logging-good/pulls)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/manojnaidu619)
 
 ![](Logging-Good.gif)
