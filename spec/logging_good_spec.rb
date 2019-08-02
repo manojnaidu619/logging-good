@@ -56,7 +56,7 @@ RSpec.describe Hash do
                 "HTTP_ACCEPT"=>"application/json, text/plain, */*",
                 "HTTP_ACCEPT_LANGUAGE"=>"en-US,en;q=0.5",
                 "HTTP_ACCEPT_ENCODING"=>"gzip, deflate", "HTTP_REFERER"=>"http://localhost:3000/",
-                "HTTP_CONNECTION"=>"keep-alive"}
+                "HTTP_CONNECTION"=>"keep-alive", "SERVER_PORT"=>"3000"}
     it "Check for request validity" do
       expect(request).to have_key("REQUEST_URI")
       expect(request).to have_key("REQUEST_METHOD")
@@ -64,6 +64,7 @@ RSpec.describe Hash do
       expect(request).to have_key("HTTP_VERSION")
       expect(request).to have_key("HTTP_ACCEPT")
       expect(request).to have_key("HTTP_CONNECTION")
+      expect(request).to have_key("SERVER_PORT")
     end
     it "Calls error function" do
       if !request.key?("REQUEST_URI")

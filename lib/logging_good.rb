@@ -50,7 +50,8 @@ def request_table(request)
                HTTP_ACCEPT: req["HTTP_ACCEPT"],
                HTTP_CONNECTION: req["HTTP_CONNECTION"],
                SERVER_NAME: req["SERVER_NAME"],
-               SERVER_SOFTWARE: req["SERVER_SOFTWARE"]
+               SERVER_SOFTWARE: req["SERVER_SOFTWARE"],
+               SERVER_PORT: req["SERVER_PORT"]
               }
     table = generate_table(new_req, "REQUEST")
     puts table
